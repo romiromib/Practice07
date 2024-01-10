@@ -1,6 +1,6 @@
 package com.javaex.ex01;
 
-public abstract class Shape {
+public  class Shape {//abstract 삭제
 	
 	protected String fillColor;
 	
@@ -8,7 +8,9 @@ public abstract class Shape {
 		this.fillColor=fillColor;
 	}
 	
-	public abstract void draw();
+	public void draw(){//abstract 삭제 및 수정
+		
+	}
 }
 
 

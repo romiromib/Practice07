@@ -11,7 +11,12 @@ public class Ractangle extends Shape{
 		this.height=height;
 	}
 	
-	public void showInfo(){
+	//게터 추가	
+	public int getWidth() {
+		return width;
+	}
+
+	public void draw(){ //showInfo()-> draw로 변경
 		System.out.println("[사각형]#면색:" +super.fillColor+ " "
 				+ " #가로:" + width 
 				+" #세로:" + height + "그렸습니다.");                                                                        
