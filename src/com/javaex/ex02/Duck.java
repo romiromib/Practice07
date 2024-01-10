@@ -2,16 +2,25 @@ package com.javaex.ex02;
 
 public class Duck extends Bird {
 
-    public void sing() {
-    
-    }
+    private String name;
 
-    public void fly() {
     
-    }
-    
-    public void showName() {
-    
-    }
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 
+	
+	
+	 public void sing() {
+		    
+	    }
+	 public void fly() {
+	    
+	    }
+	 public void showName() {
+	    
+	    }
 }
